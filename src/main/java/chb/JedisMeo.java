@@ -8,5 +8,6 @@ public class JedisMeo {
         jedis.auth("cc15907007189");
         String str = jedis.ping();
         System.out.println(str);
+        System.out.println("push test");
     }
 }
